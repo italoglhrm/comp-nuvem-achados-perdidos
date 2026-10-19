@@ -1,0 +1,3 @@
+Going to remove achados-perdidos-adminer-1
+ Container achados-perdidos-adminer-1 Removing 
+ Container achados-perdidos-adminer-1 Removed 

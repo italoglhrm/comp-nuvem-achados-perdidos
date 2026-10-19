@@ -1,0 +1,5 @@
+NAME                         IMAGE                  COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+achados-perdidos-adminer-1   adminer:4.8.1          "entrypoint.sh php -…"   adminer   2 seconds ago    Up 1 second               0.0.0.0:8081->8080/tcp, [::]:8081->8080/tcp
+achados-perdidos-db-1        postgres:16-alpine     "docker-entrypoint.s…"   db        46 seconds ago   Up 46 seconds (healthy)   5432/tcp
+achados-perdidos-nginx-1     nginx:1.27-alpine      "/docker-entrypoint.…"   nginx     46 seconds ago   Up 39 seconds             0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+achados-perdidos-web-1       achados-perdidos-web   "gunicorn --bind 0.0…"   web       46 seconds ago   Up 40 seconds             5000/tcp

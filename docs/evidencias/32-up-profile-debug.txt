@@ -1,0 +1,204 @@
+ Image adminer:4.8.1 Pulling 
+ c82cd9b427d9 Pulling fs layer 0B
+ 574dfab7cda2 Pulling fs layer 0B
+ 884bce373183 Pulling fs layer 0B
+ 798a45c9628c Pulling fs layer 0B
+ 9a4cd7b75371 Pulling fs layer 0B
+ 73226dab8db5 Pulling fs layer 0B
+ ed94e1c95a57 Pulling fs layer 0B
+ 798a45c9628c Download complete 0B
+ c82cd9b427d9 Download complete 0B
+ 884bce373183 Download complete 0B
+ 9a4cd7b75371 Download complete 0B
+ 574dfab7cda2 Download complete 0B
+ 73226dab8db5 Downloading 1.049MB
+ 73226dab8db5 Downloading 1.049MB
+ ed94e1c95a57 Downloading 1.049MB
+ ed94e1c95a57 Downloading 1.049MB
+ 73226dab8db5 Downloading 2.097MB
+ ed94e1c95a57 Downloading 2.097MB
+ 73226dab8db5 Downloading 2.097MB
+ ed94e1c95a57 Downloading 2.097MB
+ 73226dab8db5 Downloading 2.097MB
+ 73226dab8db5 Downloading 3.146MB
+ ed94e1c95a57 Downloading 2.097MB
+ 73226dab8db5 Downloading 3.146MB
+ ed94e1c95a57 Downloading 3.146MB
+ 73226dab8db5 Downloading 3.146MB
+ ed94e1c95a57 Downloading 4.194MB
+ 73226dab8db5 Downloading 4.194MB
+ ed94e1c95a57 Downloading 5.243MB
+ 73226dab8db5 Downloading 5.243MB
+ ed94e1c95a57 Downloading 6.291MB
+ ed94e1c95a57 Downloading 6.291MB
+ 73226dab8db5 Downloading 6.291MB
+ 73226dab8db5 Downloading 7.34MB
+ ed94e1c95a57 Downloading 7.34MB
+ 73226dab8db5 Downloading 8.389MB
+ ed94e1c95a57 Downloading 7.34MB
+ 73226dab8db5 Downloading 9.437MB
+ ed94e1c95a57 Downloading 8.389MB
+ 73226dab8db5 Downloading 9.437MB
+ ed94e1c95a57 Downloading 8.389MB
+ ed94e1c95a57 Downloading 9.437MB
+ 73226dab8db5 Downloading 11.53MB
+ 73226dab8db5 Downloading 11.53MB
+ ed94e1c95a57 Downloading 10.49MB
+ ed94e1c95a57 Downloading 10.49MB
+ 73226dab8db5 Downloading 12.58MB
+ 73226dab8db5 Downloading 12.58MB
+ ed94e1c95a57 Downloading 12.58MB
+ 73226dab8db5 Downloading 13.63MB
+ ed94e1c95a57 Downloading 13.63MB
+ 73226dab8db5 Downloading 13.63MB
+ ed94e1c95a57 Downloading 13.63MB
+ 73226dab8db5 Downloading 13.63MB
+ ed94e1c95a57 Downloading 14.68MB
+ 73226dab8db5 Downloading 14.68MB
+ ed94e1c95a57 Downloading 15.73MB
+ 73226dab8db5 Downloading 15.73MB
+ ed94e1c95a57 Downloading 15.73MB
+ 73226dab8db5 Downloading 15.73MB
+ ed94e1c95a57 Downloading 16.78MB
+ 73226dab8db5 Downloading 16.78MB
+ ed94e1c95a57 Downloading 17.83MB
+ 73226dab8db5 Downloading 16.78MB
+ ed94e1c95a57 Downloading 18.87MB
+ 73226dab8db5 Downloading 18.87MB
+ ed94e1c95a57 Downloading 18.87MB
+ 73226dab8db5 Downloading 18.87MB
+ ed94e1c95a57 Downloading 18.87MB
+ 73226dab8db5 Downloading 18.87MB
+ ed94e1c95a57 Downloading 19.92MB
+ 73226dab8db5 Downloading 19.92MB
+ ed94e1c95a57 Downloading 20.97MB
+ 73226dab8db5 Downloading 20.97MB
+ ed94e1c95a57 Downloading 20.97MB
+ 73226dab8db5 Downloading 20.97MB
+ ed94e1c95a57 Downloading 22.02MB
+ 73226dab8db5 Downloading 22.02MB
+ ed94e1c95a57 Downloading 23.07MB
+ ed94e1c95a57 Downloading 24.12MB
+ 73226dab8db5 Downloading 22.02MB
+ 73226dab8db5 Downloading 23.07MB
+ ed94e1c95a57 Downloading 24.12MB
+ 73226dab8db5 Downloading 24.12MB
+ ed94e1c95a57 Downloading 25.17MB
+ 73226dab8db5 Downloading 26.21MB
+ ed94e1c95a57 Downloading 25.17MB
+ 73226dab8db5 Downloading 27.26MB
+ ed94e1c95a57 Downloading 25.17MB
+ 73226dab8db5 Downloading 27.26MB
+ ed94e1c95a57 Downloading 26.21MB
+ 73226dab8db5 Downloading 28.31MB
+ ed94e1c95a57 Downloading 28.31MB
+ 73226dab8db5 Downloading 29.36MB
+ ed94e1c95a57 Downloading 28.31MB
+ 73226dab8db5 Downloading 29.36MB
+ ed94e1c95a57 Downloading 29.36MB
+ 73226dab8db5 Downloading 30.41MB
+ ed94e1c95a57 Downloading 29.36MB
+ 73226dab8db5 Downloading 31.46MB
+ ed94e1c95a57 Downloading 30.41MB
+ 73226dab8db5 Downloading 32.51MB
+ ed94e1c95a57 Downloading 31.46MB
+ 73226dab8db5 Downloading 33.55MB
+ ed94e1c95a57 Downloading 32.51MB
+ 73226dab8db5 Downloading 34.6MB
+ ed94e1c95a57 Downloading 33.55MB
+ 73226dab8db5 Downloading 35.65MB
+ ed94e1c95a57 Downloading 33.55MB
+ 73226dab8db5 Downloading 35.65MB
+ ed94e1c95a57 Downloading 34.6MB
+ 73226dab8db5 Downloading 36.7MB
+ ed94e1c95a57 Downloading 34.6MB
+ 73226dab8db5 Downloading 37.75MB
+ ed94e1c95a57 Downloading 35.65MB
+ 73226dab8db5 Downloading 37.75MB
+ ed94e1c95a57 Downloading 37.75MB
+ 73226dab8db5 Downloading 38.8MB
+ ed94e1c95a57 Downloading 38.8MB
+ 73226dab8db5 Downloading 39.85MB
+ ed94e1c95a57 Download complete 0B
+ 73226dab8db5 Downloading 40.89MB
+ 73226dab8db5 Downloading 41.94MB
+ 73226dab8db5 Downloading 42.99MB
+ 73226dab8db5 Downloading 44.04MB
+ 73226dab8db5 Downloading 45.09MB
+ 73226dab8db5 Downloading 46.14MB
+ 73226dab8db5 Downloading 47.19MB
+ 73226dab8db5 Downloading 48.23MB
+ 73226dab8db5 Downloading 48.23MB
+ 73226dab8db5 Downloading 49.28MB
+ 73226dab8db5 Downloading 50.33MB
+ 73226dab8db5 Downloading 51.38MB
+ 73226dab8db5 Downloading 52.43MB
+ 73226dab8db5 Downloading 53.48MB
+ 73226dab8db5 Downloading 54.53MB
+ 73226dab8db5 Download complete 0B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 1B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 2B
+ 73226dab8db5 Extracting 3B
+ 73226dab8db5 Extracting 3B
+ ed94e1c95a57 Extracting 1B
+ 73226dab8db5 Pull complete 0B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 1B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 2B
+ ed94e1c95a57 Extracting 3B
+ ed94e1c95a57 Extracting 3B
+ ed94e1c95a57 Extracting 3B
+ ed94e1c95a57 Extracting 3B
+ ed94e1c95a57 Extracting 3B
+ ed94e1c95a57 Pull complete 0B
+ 798a45c9628c Extracting 1B
+ 884bce373183 Pull complete 0B
+ 9a4cd7b75371 Pull complete 0B
+ 574dfab7cda2 Pull complete 0B
+ 798a45c9628c Pull complete 0B
+ c82cd9b427d9 Pull complete 0B
+ Image adminer:4.8.1 Pulled 
+ Container achados-perdidos-db-1 Running 
+ Container achados-perdidos-web-1 Running 
+ Container achados-perdidos-nginx-1 Running 
+ Container achados-perdidos-adminer-1 Creating 
+ Container achados-perdidos-adminer-1 Created 
+ Container achados-perdidos-adminer-1 Starting 
+ Container achados-perdidos-db-1 Waiting 
+ Container achados-perdidos-adminer-1 Started 
+ Container achados-perdidos-db-1 Healthy 

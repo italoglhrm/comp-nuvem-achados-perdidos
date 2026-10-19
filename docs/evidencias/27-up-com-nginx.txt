@@ -1,0 +1,148 @@
+ Image nginx:1.27-alpine Pulling 
+ 197eb75867ef Pulling fs layer 0B
+ f18232174bc9 Pulling fs layer 0B
+ 39c2ddfd6010 Pulling fs layer 0B
+ d7e507024086 Pulling fs layer 0B
+ 34a64644b756 Pulling fs layer 0B
+ b464cfdf2a63 Pulling fs layer 0B
+ 61ca4f733c80 Pulling fs layer 0B
+ 81bd8ed7ec67 Pulling fs layer 0B
+ d7e507024086 Download complete 0B
+ 197eb75867ef Download complete 0B
+ f18232174bc9 Downloading 1.049MB
+ 34a64644b756 Download complete 0B
+ b464cfdf2a63 Downloading 629B
+ f18232174bc9 Downloading 1.049MB
+ b464cfdf2a63 Download complete 0B
+ 81bd8ed7ec67 Downloading 402B
+ f18232174bc9 Downloading 1.049MB
+ 81bd8ed7ec67 Download complete 0B
+ f18232174bc9 Downloading 2.097MB
+ f18232174bc9 Downloading 2.097MB
+ 39c2ddfd6010 Downloading 1.049MB
+ f18232174bc9 Downloading 2.097MB
+ 39c2ddfd6010 Downloading 1.049MB
+ 2a84448aca9c Download complete 0B
+ 61ca4f733c80 Downloading 1.049MB
+ f18232174bc9 Downloading 3.146MB
+ 39c2ddfd6010 Downloading 1.049MB
+ 39c2ddfd6010 Downloading 2.097MB
+ 61ca4f733c80 Downloading 1.049MB
+ f18232174bc9 Downloading 3.642MB
+ 39c2ddfd6010 Downloading 2.097MB
+ 61ca4f733c80 Download complete 0B
+ f18232174bc9 Download complete 0B
+ f18232174bc9 Extracting 1B
+ 39c2ddfd6010 Downloading 3.146MB
+ 9261b9aff737 Download complete 0B
+ f18232174bc9 Extracting 1B
+ 39c2ddfd6010 Downloading 4.194MB
+ f18232174bc9 Extracting 1B
+ 39c2ddfd6010 Downloading 4.194MB
+ f18232174bc9 Pull complete 0B
+ 39c2ddfd6010 Downloading 5.243MB
+ 61ca4f733c80 Extracting 1B
+ 39c2ddfd6010 Downloading 5.243MB
+ 61ca4f733c80 Extracting 1B
+ 39c2ddfd6010 Downloading 5.243MB
+ 61ca4f733c80 Extracting 1B
+ 39c2ddfd6010 Downloading 6.291MB
+ 61ca4f733c80 Extracting 1B
+ 39c2ddfd6010 Downloading 7.34MB
+ 61ca4f733c80 Pull complete 0B
+ 39c2ddfd6010 Downloading 7.34MB
+ b464cfdf2a63 Pull complete 0B
+ 39c2ddfd6010 Downloading 8.389MB
+ d7e507024086 Pull complete 0B
+ 197eb75867ef Extracting 1B
+ 81bd8ed7ec67 Pull complete 0B
+ 39c2ddfd6010 Downloading 9.437MB
+ 197eb75867ef Pull complete 0B
+ 34a64644b756 Pull complete 0B
+ 39c2ddfd6010 Downloading 10.49MB
+ 39c2ddfd6010 Downloading 10.49MB
+ 39c2ddfd6010 Downloading 11.53MB
+ 39c2ddfd6010 Downloading 12.58MB
+ 39c2ddfd6010 Downloading 13.63MB
+ 39c2ddfd6010 Downloading 14.68MB
+ 39c2ddfd6010 Download complete 0B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Extracting 1B
+ 39c2ddfd6010 Pull complete 0B
+ Image nginx:1.27-alpine Pulled 
+ Image achados-perdidos-web Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 623B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 386B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.8s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 65B done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/python:3.12-slim@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1
+#5 resolve docker.io/library/python:3.12-slim@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 2.99kB done
+#6 DONE 0.0s
+
+#7 [3/6] COPY requirements.txt .
+#7 CACHED
+
+#8 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+
+#9 [5/6] COPY . .
+#9 CACHED
+
+#10 [2/6] WORKDIR /app
+#10 CACHED
+
+#11 [6/6] RUN useradd --system --no-create-home appuser     && mkdir -p /app/uploads     && chown -R appuser:appuser /app/uploads
+#11 CACHED
+
+#12 exporting to image
+#12 exporting layers done
+#12 exporting manifest sha256:09b20f1dd63dd39589b2070c424b9631de0a687970bb05ba844f74a626e2a781 done
+#12 exporting config sha256:0af90264a5c3839a1c8b71351c1262bc7e6caff0fa3b9ca0cb8778f770fb634c
+#12 exporting config sha256:0af90264a5c3839a1c8b71351c1262bc7e6caff0fa3b9ca0cb8778f770fb634c done
+#12 exporting attestation manifest sha256:b4a8d6d5e1b117c57bc49eb544e661b1746ee8262e163fd3dc189aa0dd89a775 0.0s done
+#12 exporting manifest list sha256:2e138df612f083ba0e8e80c365adc1acc1d37ea4aef6513d4a7b524bd71094a6 0.0s done
+#12 naming to docker.io/library/achados-perdidos-web:latest done
+#12 unpacking to docker.io/library/achados-perdidos-web:latest 0.0s done
+#12 DONE 0.1s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.0s
+ Image achados-perdidos-web Built 
+ Network achados-perdidos_rede_interna Creating 
+ Network achados-perdidos_rede_interna Created 
+ Container achados-perdidos-db-1 Creating 
+ Container achados-perdidos-db-1 Created 
+ Container achados-perdidos-web-1 Creating 
+ Container achados-perdidos-web-1 Created 
+ Container achados-perdidos-nginx-1 Creating 
+ Container achados-perdidos-nginx-1 Created 
+ Container achados-perdidos-db-1 Starting 
+ Container achados-perdidos-db-1 Started 
+ Container achados-perdidos-db-1 Waiting 
+ Container achados-perdidos-db-1 Healthy 
+ Container achados-perdidos-web-1 Starting 
+ Container achados-perdidos-web-1 Started 
+ Container achados-perdidos-nginx-1 Starting 
+ Container achados-perdidos-nginx-1 Started 

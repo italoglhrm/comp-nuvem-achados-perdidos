@@ -1,0 +1,16 @@
+[
+    {
+        "CreatedAt": "2026-10-19T11:44:49Z",
+        "Driver": "local",
+        "Labels": {
+            "com.docker.compose.config-hash": "4ba06f54269045a91b2e9d6ea8d9837dc0d6f3b74bb1e27ee4f266381031c402",
+            "com.docker.compose.project": "achados-perdidos",
+            "com.docker.compose.version": "5.1.3",
+            "com.docker.compose.volume": "dados_banco"
+        },
+        "Mountpoint": "/var/lib/docker/volumes/achados-perdidos_dados_banco/_data",
+        "Name": "achados-perdidos_dados_banco",
+        "Options": null,
+        "Scope": "local"
+    }
+]

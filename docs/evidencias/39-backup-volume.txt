@@ -1,0 +1,6 @@
+Unable to find image 'alpine:latest' locally
+latest: Pulling from library/alpine
+797dd00a0fc7: Download complete
+6d0606d1815c: Download complete
+Digest: sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6
+Status: Downloaded newer image for alpine:latest

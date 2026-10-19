@@ -1,0 +1,16 @@
+[
+    {
+        "CreatedAt": "2026-10-19T11:44:49Z",
+        "Driver": "local",
+        "Labels": {
+            "com.docker.compose.config-hash": "f81a00e624dc4820542b31045a72ca847fa9f7f231f810f740569750675af6fa",
+            "com.docker.compose.project": "achados-perdidos",
+            "com.docker.compose.version": "5.1.3",
+            "com.docker.compose.volume": "fotos"
+        },
+        "Mountpoint": "/var/lib/docker/volumes/achados-perdidos_fotos/_data",
+        "Name": "achados-perdidos_fotos",
+        "Options": null,
+        "Scope": "local"
+    }
+]

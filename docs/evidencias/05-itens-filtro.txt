@@ -1,0 +1,1 @@
+﻿[{"criado_em":"2026-10-19T11:44:52.140222","descricao":"Garrafa termica azul","foto":null,"id":1,"local":"Biblioteca"}]
