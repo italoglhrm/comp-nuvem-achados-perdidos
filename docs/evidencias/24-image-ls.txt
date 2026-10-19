@@ -1,0 +1,3 @@
+WARNING: This output is designed for human readability. For machine-readable output, please use --format.
+IMAGE                         ID             DISK USAGE   CONTENT SIZE   EXTRA
+achados-perdidos-web:latest   786043c0c04a        219MB         53.8MB   U    
