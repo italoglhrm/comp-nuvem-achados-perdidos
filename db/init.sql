@@ -8,5 +8,5 @@ CREATE TABLE IF NOT EXISTS itens (
 
 INSERT INTO itens (descricao, local) VALUES
     ('Garrafa termica azul', 'Biblioteca'),
-    ('Carregador de notebookn USB-C', 'Laboratorio 3'),
-    ('Casaco preto com capuz', 'Cantino');
+    ('Carregador de notebook USB-C', 'Laboratorio 3'),
+    ('Casaco preto com capuz', 'Cantina');
