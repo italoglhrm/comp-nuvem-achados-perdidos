@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# comp-nuvem-achados-perdidos
-=======
 # Achados & Perdidos — Comp Nuvem
 
 Empacotamento em contêineres do sistema de Achados & Perdidos do Setor de Atendimento ao
@@ -163,4 +160,3 @@ achados-perdidos/
   de volume, painel adminer) com evidências.
 - [`docs/evidencias/`](docs/evidencias/) — saídas reais dos testes funcionais e da prova de
   persistência.
->>>>>>> development
