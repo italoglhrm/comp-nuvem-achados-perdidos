@@ -1,0 +1,5 @@
+ Container achados-perdidos-db-1 Running 
+ Container achados-perdidos-web-1 Running 
+ Container achados-perdidos-nginx-1 Running 
+ Container achados-perdidos-db-1 Waiting 
+ Container achados-perdidos-db-1 Healthy 

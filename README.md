@@ -13,14 +13,19 @@ cada peça funciona, para que a próxima equipe consiga migrar isso para a nuvem
 
 ## Arquitetura (resumo)
 
-- **web**: API Flask servida pelo Gunicorn, porta `8080` no host → `5000` no contêiner.
+- **nginx**: proxy reverso, porta `8080` no host → `80` no contêiner; único ponto de
+  entrada do ambiente (desafio bônus — ver [`docs/BONUS.md`](docs/BONUS.md)).
+- **web**: API Flask servida pelo Gunicorn, porta `5000`, sem porta publicada no host.
 - **db**: PostgreSQL 16 (imagem oficial `postgres:16-alpine`), sem porta publicada no host.
-- **rede_interna**: rede bridge que permite `web` encontrar `db` pelo nome.
+- **adminer**: painel web do banco, só sobe com o profile `debug` (bônus).
+- **rede_interna**: rede bridge que permite os serviços se encontrarem pelo nome.
 - **dados_banco**: volume nomeado com os dados do PostgreSQL.
 - **fotos**: volume nomeado com as fotos enviadas pelos usuários.
 
 Diagrama completo em [`docs/arquitetura.md`](docs/arquitetura.md). Explicação linha a linha
-do Dockerfile e do docker-compose.yml em [`docs/RELATORIO.md`](docs/RELATORIO.md).
+do Dockerfile e do docker-compose.yml em [`docs/RELATORIO.md`](docs/RELATORIO.md). Desafios
+bônus (proxy reverso, backup/restauração de volume, painel adminer) em
+[`docs/BONUS.md`](docs/BONUS.md).
 
 ## Pré-requisitos
 
@@ -44,11 +49,22 @@ Edite `.env` e defina `POSTGRES_DB`, `POSTGRES_USER` e `POSTGRES_PASSWORD`. Esse
 
 ```bash
 docker compose up -d --build
-docker compose ps        # os dois serviços "running"; db "healthy"
+docker compose ps        # nginx, web e db "running"; db "healthy"
 ```
 
 A primeira subida cria os volumes `dados_banco` e `fotos` e inicializa o banco a partir de
-`db/init.sql` (três itens de exemplo).
+`db/init.sql` (três itens de exemplo). Todo o tráfego passa pelo `nginx` (porta `8080`) —
+o `web` não tem mais porta própria publicada no host.
+
+### Painel do banco (opcional, debug)
+
+```bash
+docker compose --profile debug up -d
+```
+
+Sobe também o `adminer` em `http://localhost:8081` (sistema PostgreSQL, servidor `db`,
+credenciais do `.env`). Sem `--profile debug`, o `adminer` nunca é criado. Detalhes em
+[`docs/BONUS.md`](docs/BONUS.md).
 
 ## Testar
 
@@ -86,6 +102,17 @@ Remove também os volumes nomeados. Na próxima subida, o banco é reinicializad
 partir de `db/init.sql` (volta a ter só os três itens de exemplo) e a pasta de fotos volta
 vazia. Evidência disso em [`docs/evidencias/`](docs/evidencias/).
 
+## Backup do volume de fotos (bônus)
+
+```bash
+docker run --rm -v achados-perdidos_fotos:/data -v "$(pwd)/backup":/backup \
+  alpine tar czf /backup/fotos-backup.tar.gz -C /data .
+```
+
+Gera `backup/fotos-backup.tar.gz` com o conteúdo do volume `fotos`, sem precisar parar o
+ambiente. Passo a passo completo (incluindo a restauração em um volume novo) em
+[`docs/BONUS.md`](docs/BONUS.md).
+
 ## Rotas da API
 
 | Rota | Método | Descrição |
@@ -107,10 +134,13 @@ achados-perdidos/
 |   `-- .dockerignore
 |-- db/
 |   `-- init.sql           (fornecido pelo professor)
+|-- nginx/
+|   `-- nginx.conf         (bônus: proxy reverso)
 |-- docs/
 |   |-- arquitetura.md
 |   |-- RELATORIO.md
 |   |-- REFLEXAO.md
+|   |-- BONUS.md
 |   `-- evidencias/
 |-- docker-compose.yml
 |-- .env                   (não versionado)
@@ -126,5 +156,7 @@ achados-perdidos/
   o caminho de uma requisição `POST /itens` com foto e o ciclo de vida dos volumes.
 - [`docs/REFLEXAO.md`](docs/REFLEXAO.md) — respostas às questões de reflexão e tabela de
   equivalência com serviços gerenciados em nuvem.
+- [`docs/BONUS.md`](docs/BONUS.md) — os três desafios bônus (proxy reverso, backup/restauração
+  de volume, painel adminer) com evidências.
 - [`docs/evidencias/`](docs/evidencias/) — saídas reais dos testes funcionais e da prova de
   persistência.

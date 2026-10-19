@@ -42,3 +42,18 @@ Saídas reais, capturadas durante a execução do roteiro das Tarefas 4 e 5
 ## Checklist de entrega
 
 - `25-whoami.txt` — `docker compose exec web whoami`: retorna `appuser`, confirmando que o contêiner não roda como root (RNF04).
+
+## Desafios bônus (ver [`../BONUS.md`](../BONUS.md))
+
+- `26-down-para-bonus.txt` / `27-up-com-nginx.txt` — ambiente recriado já com o serviço `nginx` no `docker-compose.yml`.
+- `28-ps-com-nginx.txt` — `docker compose ps`: `web` aparece sem porta publicada (`5000/tcp`), só `nginx` publica `8080`.
+- `29-health-via-nginx.txt` — `GET /health` através do `nginx` na porta `8080`: continua `ok`/`conectado`.
+- `30-cadastro-foto-via-nginx.txt` / `31-itens-via-nginx.txt` — `POST /itens` com upload de foto atravessando o proxy reverso, provando que `multipart/form-data` passa corretamente.
+- `32-up-profile-debug.txt` / `33-ps-com-adminer.txt` — `docker compose --profile debug up -d`: o `adminer` é criado junto com os outros serviços.
+- `34-adminer-http-status.txt` — `adminer` respondendo `HTTP 200` em `localhost:8081`.
+- `35-remove-adminer.txt` / `36-up-sem-profile-debug.txt` / `37-ps-sem-adminer.txt` — sem `--profile debug`, o `adminer` não é criado (prova do gate no sentido contrário).
+- `38-fotos-antes-backup.txt` — conteúdo do volume `fotos` antes do backup.
+- `39-backup-volume.txt` — `docker run --rm ... tar czf`: geração do `fotos-backup.tar.gz` com um contêiner Alpine temporário.
+- `40-backup-listagem.txt` — `tar tzf` no backup gerado, confirmando o arquivo empacotado.
+- `41-volume-restore-create.txt` / `42-restore-volume.txt` — criação de um volume novo e restauração do backup nele.
+- `43-fotos-apos-restore.txt` — conteúdo do volume restaurado: mesmo arquivo, mesmo tamanho do volume original.

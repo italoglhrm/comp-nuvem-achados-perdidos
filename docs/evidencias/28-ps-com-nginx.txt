@@ -1,0 +1,4 @@
+NAME                       IMAGE                  COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+achados-perdidos-db-1      postgres:16-alpine     "docker-entrypoint.s…"   db        14 seconds ago   Up 13 seconds (healthy)   5432/tcp
+achados-perdidos-nginx-1   nginx:1.27-alpine      "/docker-entrypoint.…"   nginx     14 seconds ago   Up 7 seconds              0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+achados-perdidos-web-1     achados-perdidos-web   "gunicorn --bind 0.0…"   web       14 seconds ago   Up 7 seconds              5000/tcp
